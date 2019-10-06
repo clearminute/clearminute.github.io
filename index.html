@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,maximum-scale=1"
+    />
+    <title>Clearminute: Unlock the full potential of your 24 hours</title>
+    <meta
+      name="description"
+      content="Automated activity time tracking for Chrome. Analyze your time spending habits, eliminate your biggest distractions, and focus on the important."
+    />
+    <meta
+      name="keywords"
+      content="automated, activity, time tracking, chrome extension, distractions, procrastination, focus, work, productivity, free time"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400|Open+Sans:300,600"
+      rel="stylesheet"
+    />
+    <!-- social media -->
+    <meta property="og:site_name" content="Clearminute" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://www.clearminute.com/assets/og-image.jpg"
+    />
+    <meta
+      property="og:title"
+      content="Clearminute: Unlock the full potential of your 24 hours"
+    />
+    <meta
+      property="og:description"
+      content="Automated activity time tracking for macOS. Analyze your time spending habits, eliminate your biggest distractions, and focus on the important."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@clearminute" />
+    <meta
+      name="twitter:title"
+      content="Clearminute: Unlock the full potential of your 24 hours"
+    />
+    <meta
+      name="twitter:description"
+      content="Automated activity time tracking for macOS. Analyze your time spending habits, eliminate your biggest distractions, and focus on the important."
+    />
+    <meta
+      name="twitter:image"
+      content="https://www.clearminute.com/assets/og-image.jpg"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/icon/favicon.png" />
+  </head>
+  <body>
+    <header class="header header--index">
+      <div class="header__background-image"></div>
+      <div class="header__background-color"></div>
+      <nav class="header__nav">
+        <div class="header__left">
+          <div class="header__logo">
+            <img alt="clearminute" src="assets/icon/logo.svg" />
+          </div>
+          <div class="header__title">
+            <a class="link-white" href="https://www.clearminute.com">
+              <span class="thin-font">clear</span>minute
+            </a>
+          </div>
+        </div>
+        <div class="header__right">
+          <div id="menu-items">
+            <ul>
+              <li><a href="/blog/">Blog</a></li>
+            </ul>
+          </div>
+          <a
+            href="javascript:void(0);"
+            class="menu-collapse-icon"
+            onclick="toggleNav()"
+          >
+            <img alt="menu" src="assets/icon/menu.svg" />
+          </a>
+        </div>
+      </nav>
+      <div class="header__content">
+        <h1>Unlock the full potential of your 24 hours</h1>
+        <p>
+          In a world full of distractions, Clearminute helps you to focus on
+          your goals. We believe that everyone can accomplish more by mastering
+          the art of deep focused work.
+        </p>
+      </div>
+      <div class="header__buttons">
+        <a href="https://chrome.google.com/webstore/detail/clearminute/pcenfiemkfldlchmgcohjkfhppckocne">
+          <div class="button button--primary pull-left">
+            Free Install
+          </div>
+        </a>
+        <a href="https://www.clearminute.com/blog/posts/uninterrupted-focus">
+          <div class="button button--secondary pull-right">
+            Here's why
+          </div>
+        </a>
+
+      </div>
+      <div class="header__cutout"></div>
+    </header>
+    <div class="tablet">
+      <div class="tablet__screen"></div>
+    </div>
+    <div id="highlights" class="short-description">
+      Avoiding distractions is one thing. Measuring your progress is equally as
+      important. Accurately measuring your productivity can be cumbersome—manual
+      activity tracking, starting and stopping of timers, accounting for
+      unplanned distractions. The built-in tracking capabilities of Clearminute
+      make this easy: we take care of all the distractions and deliver you the
+      insights you need to improve your productivity.
+    </div>
+
+    <div class="section-title">
+      <h2>Features</h2>
+    </div>
+    <div class="section section--double">
+      <div class="section__content">
+        <div class="section__content__part pull-left">
+          <img alt="automated" src="assets/icon/automated-icon.svg" />
+          <h3>Fully Automated Tracking</h3>
+          <p>
+            Clearminute keeps track of your activities in a fully automated
+            manner. The Chrome Extension generates accurate reports of how much time you
+            spend on various websites during the day. It’ll also automatically take
+            account of the short breaks you do away from the computer.
+          </p>
+        </div>
+        <div class="section__content__part pull-right">
+          <img alt="focus" src="assets/icon/focus-icon.svg" />
+          <h3>Deep Focus</h3>
+          <p>
+            Feeling ambitious today? Enter deep focus! It
+            blocks all distracting websites so that you can focus on your work. 
+            The more time you spend in deep focus, the
+            bigger the productivity boost you will experience.
+            <a href="https://www.clearminute.com/blog/posts/uninterrupted-focus"
+              >Read more.</a
+            >
+          </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section__content">
+        <div class="section__content__single">
+          <img alt="privacy" src="assets/icon/privacy-icon.svg" />
+          <h3>Maximum privacy through local data storage</h3>
+          <p>
+            Everything the Chrome Extension tracks is only saved locally on your computer.
+            We use local storage in the browser (IndexDB) for all the data.
+            Nothing is being sent to our servers. The extension doesn't even require registration.
+            This is the highest level of privacy you can get.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="section section--double">
+      <div class="section__content">
+        <div class="section__content__part pull-left">
+          <img alt="reports" src="assets/icon/report-icon.svg" />
+          <h3>Insightful Reports</h3>
+          <p>
+            The web dashboard presents you with extensive hourly, daily and
+            weekly activity reports. Inspect your time spending patterns to
+            identify unproductive habits and monitor your progress towards being
+            more efficient with your time.
+          </p>
+        </div>
+        <div class="section__content__part pull-right">
+          <img alt="share" src="assets/icon/share-icon.svg" />
+          <h3>Free & Open Source</h3>
+          <p>
+            Clearminute is free forever. All the code of the extension
+            and the web dashboard is open-sourced on Github under
+            the GNU GPL v3.0 License. <a href="https://github.com/clearminute" target="_blank">Please feel free to join the conversation
+            and contribute directly on Github</a>.
+          </p>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="footer__copyright">
+          <div class="footer__copyright__title">
+            <a class="link-white" href="https://www.clearminute.com">
+              <span class="thin-font">clear</span>minute
+            </a>
+          </div>
+          <div class="footer__copyright__note">
+            © Clearminute 2018
+          </div>
+        </div>
+        <div class="footer__social">
+          <h3>Contribute</h3>
+          <a 
+            href="https://github.com/clearminute"
+            target="_blank"
+            ><img alt="github" src="assets/icon/github.svg" 
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- navigation -->
+    <script>
+      function toggleNav() {
+        var x = document.getElementById("menu-items");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>

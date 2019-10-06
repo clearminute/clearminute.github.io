@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="97.7085899%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4083DB" offset="0%"></stop>
+            <stop stop-color="#2D6BBC" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="45" cy="45" r="45"></circle>
+        <linearGradient x1="100%" y1="88.1620313%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#4083DB" offset="0%"></stop>
+            <stop stop-color="#40AADB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        <path d="M0,86.9744316 C0,27.3140131 15.7667297,12.3989085 47.300189,42.2291177 C75.4271482,72.059327 89.4906278,57.1442224 89.4906278,-2.51619616 C89.4906278,-62.1766147 89.9937518,-32.1304011 91,87.6224446 L21.3795359,92.7884736 C7.12651195,148.572864 2.00871988e-15,146.63485 0,86.9744316 Z" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+        <g id="lock" transform="translate(29.000000, 27.000000)">
+            <rect id="Rectangle-path" fill="#FFFFFF" x="0" y="16.2" width="32" height="19.8" rx="3.6"></rect>
+            <path d="M7.11111111,16.2 L7.11111111,9 C7.11111111,4.02943725 11.0908022,1.687539e-15 16,8.8817842e-16 C20.9091978,-7.10542736e-16 24.8888889,4.02943725 24.8888889,9 L24.8888889,16.2" id="Shape" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

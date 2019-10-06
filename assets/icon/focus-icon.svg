@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="97.7085899%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4083DB" offset="0%"></stop>
+            <stop stop-color="#2D6BBC" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="35" cy="35" r="35"></circle>
+        <linearGradient x1="100%" y1="88.1620313%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#4083DB" offset="0%"></stop>
+            <stop stop-color="#40AADB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-3" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+        <path d="M0,67.6467801 C0,21.2442324 12.263012,9.64359548 36.7890359,32.8448693 C58.6655597,56.0461432 69.6038216,44.4455063 69.6038216,-1.95704145 C69.6038216,-48.3595892 69.9951403,-24.990312 70.7777778,68.1507902 L16.6285279,72.1688128 C5.54284263,115.556672 1.56233768e-15,114.049328 0,67.6467801 Z" fill="url(#linearGradient-4)" mask="url(#mask-3)"></path>
+        <path d="M35,55 C23.954305,55 15,46.045695 15,35 C15,23.954305 23.954305,15 35,15 C46.045695,15 55,23.954305 55,35 C55,46.045695 46.045695,55 35,55 Z M35,50 C43.2842712,50 50,43.2842712 50,35 C50,26.7157288 43.2842712,20 35,20 C26.7157288,20 20,26.7157288 20,35 C20,43.2842712 26.7157288,50 35,50 Z" fill="#FFFFFF"></path>
+        <circle id="Oval-4" fill="#FFFFFF" cx="35" cy="35" r="5"></circle>
+    </g>
+</svg>
