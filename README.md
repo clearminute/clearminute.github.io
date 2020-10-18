@@ -1,2 +1,2 @@
 # clearminute.github.io
-Clearminute's Landing Page: www.clearminute.com
+Clearminute's Landing Page: https://clearminute.github.io
